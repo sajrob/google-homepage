@@ -1,0 +1,40 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0px;
+  background-color: #f2f2f2;
+  color: #5f6368;
+}
+
+li {
+  float: left;
+  padding: 14px 5px;
+  text-align: center;
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.logoArea{
+  text-align: center;
+  padding-top: 200px;
+  width:800px;
+  margin:0 auto;
+}
+
+.footerL{
+  padding-left: 30px;
+  float: left;
+}
+
+.footerR{
+  padding-right: 30px;
+  float: right;
+}

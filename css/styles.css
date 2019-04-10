@@ -18,6 +18,15 @@ footer {
  color: #5f6368;
 }
 
+/*  Navbar  */
+nav {
+    text-align: right;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 13px;
+    width: 100%;
+}
+
 
 ul li {
     text-align: center;

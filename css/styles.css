@@ -1,8 +1,5 @@
 body {
-  margin-top: 20px;
-  margin-left:0px;
-  margin-right:0px;
-  margin-bottom: 0px;
+  margin: 20px 0;
 }
 
 p {
@@ -25,8 +22,8 @@ li, p, a {
 
 li, ul {
   list-style-type:none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-right: 10px;
   display: inline-block;
 }
@@ -108,7 +105,7 @@ li > a > img {
   float: left;
 }
 
-#footer {
+footer {
   color:rgba(0,0,0,.54);
 }
 

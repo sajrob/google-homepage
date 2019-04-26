@@ -5,57 +5,71 @@
   <meta charset="utf-8">
   <link rel="tab icon" href="https://www.google.ca/favicon.ico">
   <link rel="stylesheet" href="css/styles.css">
-  <title>google</title>
+  <title>Google</title>
 </head>
 
 <body>
-  <div class="container">
-
-    <!-- main nav bar -->
-    <header>
-      <div>
-        <ul id="navbar">
-          <li><a href="https://mail.google.com/mail/?tab=wm" class="underline">Gmail</a></li>
-          <li><a href="https://www.google.com.ng/imghp?hl=en&amp;tab=wi" class="underline">Images</a></li>
-          <li><a href="https://www.google.com.ng/intl/en/about/products?tab=wh"><img src="./images/google-apps.png" alt="Google Apps" id="gapps"></a></li>
-          <li><a href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/" id="signin">Sign in</a></li>
-         </ul>
+  <!-- main nav bar -->
+  <header>
+    <div class="navBar">
+      <div class="topMenu floatRight">
+        <ul>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li><a href="#"><img src="./images/google-apps.png"></a></li>
+          <li class="differentName"><a href="#"><button>Sign in</button></a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </header>
+
+  <div id="container">
     
-  
-
-
     <!-- main dealio-->
-    <div class="logoArea">
-      <img src="./images/googlelogo_color_272x92dp.png" width=300px; alt="logo">
+    <img src="./images/googlelogo.png" width=300px; alt="logo">
 
-      <!-- centered the main body -->
-      <div>
-        <input type="search" name="" value="">
-        <br>
-        <br>
-        <input type="submit" name="" value="Google Search">
-        <input type="submit" name="" value="I'm Feeling Lucky">
+    <!-- centered the main body -->
+    <div>
+      <div class="searchForm">
+        <form action="#" method="get" id="search">
+          <input type="text" name="search" value="">
+        </form>
+      </div>
+
+      <div class="searchbuttons">
+        <ul>
+          <li> <a href=""><button type="submit">Google Search</button></a></li>
+          <li> <a href=""><button type="submit">I'm Feeling Lucky</button></a></li>
+        </ul>
+        <p>Google offered in: <a href="https://www.google.com/setprefs?sig=0_0F02Kg6t96jnv5T0ihU1Pow3hI0%3D&hl=kri&source=homepage&sa=X&ved=0ahUKEwj2seLdqe3hAhUIxqYKHSHLB0gQ2ZgBCAc">Krio (Sierra Leone)</a></p>
       </div>
 
     </div>
+
   </div>
 
-  
+
   <!-- footer area -->
   <footer>
-    <div class="rightHeader">
-      <div class="footerL">
-        <a href="">Advertising</a>
-        <a href="">Business</a>
-        <a href="">About</a>
+    <div id="footer">
+      <div class="countri">
+        <p>Sierra Leone</p>
+      </div>
+      <div class="floatLeft footerMenu">
+        <ul>
+          <li><a href="">Advertising</a></li>
+          <li><a href="">Business</a></li>
+          <li><a href="">About</a></li>
+        </ul>
       </div>
 
-      <div class="footerR">
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
-        <a href="">Settings</a>
+      <div class="floatRight footerMenu">
+        <ul>
+          <li><a href="">Privacy</a></li>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Settings</a></li>
+        </ul>
       </div>
     </div>
 
